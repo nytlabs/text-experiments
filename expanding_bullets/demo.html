@@ -1,0 +1,104 @@
+<html>
+<head>
+	<title>The New York Times</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <!--jquery-->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+
+	<!--TypeKit-->
+    <script type="text/javascript" src="//use.typekit.net/xhx3rop.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+	<!--css-->
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/base.css">
+    <!--js-->
+    <!--<script type="text/javascript" src="js/iscroll-lite.js"></script>-->
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('li').on('click', function() {
+                if($(this).children('ul').css('display') == 'none') {
+                    $(this).children('ul').slideDown();
+                }
+                else {
+                    $(this).children('ul').slideUp();
+                }
+                
+            })
+        });
+    </script>
+
+</head>
+<body>
+
+
+    <!-- <div id="header">
+        <div class="logo"><img src="img/iris-logo-sm.png" /></div><div class="user">Alexis Lloyd</div>
+    </div> -->
+
+            <div class="article">
+                <h1>The House is set on Thursday to give strong bipartisan support to a doc fix deal negotiated between John Boehner and Nancy Pelosi.</h1>
+                
+                <h2>
+                    
+                </h2>
+                <div class="article-body">
+                    <ul>
+                        <li>
+                            The "doc fix" is a term for the annual prevention of scheduled cuts in Medicare fees to doctors.
+                            <ul class="sub">
+                                <li>
+                                    A law was passed in the 1990s that sought to restrain costs by tying doctors' pay to a formula--a formal that most agree makes little sense.
+                                </li>
+                                <li>
+                                    Since then, doc fixes have been used as short-term solutions, keeping doctors' payments stable and occasionally giving them a small raise.
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            This "permanent doc fix" would allow for regular doctor fee increases.
+                            <ul class="sub">
+                                <li>
+                                    Some wealthier Medicare beneficiaries would pay more, and some of the cost would be added to the deficit.
+                                </li>
+                                <li>
+                                    This permanent doc fix would also extend a children's health program and some other health initiatives.
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            This is a major moment for Mr Boehner.
+                            <ul class="sub">
+                                <li>
+                                    He is being praised by Republicans and Democrats, both inside and outside of Congress, for stepping up to strike a bargain with Democrats rather than trying to satisfy more conservative Republicans who have not been eager to compromise.
+                                </li>
+                                <li>
+                                    This could be a template for future legislative deals if this one is successful without undermining Mr. Boehner among his rank and file.
+                                </li>
+                                <li>
+                                    He is already taking some hits from his right.
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            Both Democrats and Republicans would like to run up the vote count as high as possible to put more pressure on the Senate.
+                            <ul class="sub">
+                                <li>
+                                    The deal has encountered resistance from Democrats trying to squeeze more out of the deal.
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <!-- <div class="share"><a href='#' class='share-tool twitter'>&#62217;</a><a href='#' class='share-tool facebook'>&#62222;</a><br class='clear' /></div>
+            </div>
+            <div class="loader"></div> -->
+
+        
+<!--         <div id="next" class="navigation"><a id="reclink" href="rec/2"><img src="img/loader.gif" /></a></div>
+ -->
+
+
+</body>
+</html>
