@@ -284,31 +284,42 @@ ul .sub {
 }
 
 .primary {
-    border-bottom: 1px solid #4EC0BF;
+    /*border-bottom: 1px solid #4EC0BF;*/
+    background-color: #e6e6e6;
+    padding:2px;
 }
 .analysis {
-    border-bottom: 1px solid #C84160;
+    /*border-bottom: 1px solid #C84160;*/
+    background-color: #e6e6e6;
+    padding:2px;
 }
 .definition {
-    border-bottom: 1px solid #FADC4F;
+    /*border-bottom: 1px solid #FADC4F;*/
+    background-color: #e6e6e6;
+    padding:2px;
 }
 .bio {
-    border-bottom: 1px solid #FF8F45;
+    /*border-bottom: 1px solid #FF8F45;*/
+    background-color: #e6e6e6;
+    padding:2px;
 }
 .proof {
-    border-bottom: 1px solid #41135B;
+    /*border-bottom: 1px solid #41135B;*/
+    background-color: #e6e6e6;
+    padding:2px;
 }
 .selected {
-    background-color: #e6e6e6;
+    background-color: #ccc;
 }
 .context { 
     position: relative; 
     overflow: hidden; 
-    background-color: #e6e6e6;
+    background-color: #f2f2f2;
     border-top: 1px solid #ccc;
     border-bottom: 1px solid #ccc;
     margin:20px 0px;
     display: none;
+    font-size: 0.9em;
 }
 .close{
   position: absolute;
