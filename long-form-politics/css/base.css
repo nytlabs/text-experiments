@@ -25,9 +25,9 @@
 /* general */
 
 body,html {
-	color:#222;
+	color:#333;
     background-color: #fdfdfd;
-	font-family: "nyt-imperial",Georgia, Times, "Times New Roman", serif;
+	font-family: Georgia, Times, "Times New Roman", serif;
 	font-style: normal;
 	font-weight: 500;
     font-size:0.95em;
@@ -344,11 +344,12 @@ ul .sub {
 }
 .context li { 
     font-family: 'nyt-franklin-101202-h02', sans-serif;
+    font-size:1em;
     list-style: none; 
     display: inline-block;
     margin:0px;
     padding:20px 0px;
-    line-height: 1.3em;
+    line-height: 1.35em;
 }
 .context ul li { 
     float: left; 

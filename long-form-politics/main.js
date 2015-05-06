@@ -14,7 +14,8 @@ $(document).ready(function() {
 
 	//Handle a click on a link
 	$('a').on('click', function() {
-		console.log('click')
+		/*$('.context').slideUp();
+		$('a').removeClass('selected');*/
 		var parentEl = $(this).parent();
 		var thisIndex = $(parentEl).children('a').index(this);
 		var targetPara = $('#' + String($(parentEl).attr('id'))+'-context');
