@@ -48,6 +48,9 @@ a, a:link, a:visited, a:active {
     text-decoration: none;
     cursor:pointer;
 }
+a {
+    color: #004726;
+}
 
 #wrapper {
     width:100%;
@@ -352,7 +355,9 @@ ul .sub {
 }
 .context ul li p {
     padding: 0px 20px 20px 20px;
-    margin-bottom: 60px;
+}
+.context ul li p:last-child {
+    margin-bottom: 0px;
 }
 .context h1 {
     font-family: 'nyt-franklin-101202-h02', sans-serif;

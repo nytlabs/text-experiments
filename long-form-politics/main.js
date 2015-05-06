@@ -35,7 +35,7 @@ $(document).ready(function() {
 			});
 		});
 		var dotsH = $(targetGroup).siblings('.dots').height();
-		var cardH = $($(targetGroup).children('li')[thisIndex]).height();
+		var cardH = $($(targetGroup).children('li')[thisIndex]).outerHeight();
 		$(targetPara).animate({
 		   height: cardH,
 		}, 600);
