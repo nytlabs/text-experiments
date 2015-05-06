@@ -1,0 +1,112 @@
+.response-container {
+	position:absolute;
+	right:90px;
+	border-left:1px solid rgb(226, 226, 226);
+	padding-left:45px;
+	padding-top:8px;
+	width:30%;
+}
+
+.marginalia {
+	display:none!important;
+}
+
+.phrase, .answer, .author {
+	padding-left:12px;
+	font-size:12px!important;
+}
+
+.phrase {
+	font-weight:bold;
+}
+
+.author {
+	font-weight:bold;
+}
+
+.answer {
+	line-height:1.5;
+}
+
+.phrase span {
+	font-weight:normal!important;
+	font-style:italic;
+}
+
+.blast.visible, .phrase {
+	transition: all .1s ease-in;
+	background-color:lightgray;
+}
+
+.highlight-hover {
+	transition: all .1s ease-in;
+	background-color:lightgray;
+}
+
+.highlight {
+	transition: all .075s ease-in;
+	background-color:yellow!important;
+}
+
+.button-active {
+	transition: all .1s ease-in;
+	border-radius: 45%!important;
+	background-color:#1e1e1e!important;
+}
+
+img.response-icon {
+	width:23px;
+	height:23px;
+}
+
+a.response-icon {
+	padding:3px;
+	margin-top:-1px;
+	margin-left:-1px;
+	transition: all .1s ease-in;
+}
+
+a.response-icon:hover {
+	transition: all .1s ease-in;
+	border-radius:45%;
+	background-color:lightgray;
+}
+
+.just-asked {
+	outline: darkgray dotted 1px;
+}
+
+select {
+	height:28px;
+	border:1px solid darkgray;
+	background-color:white;
+	padding:7px;
+	font-family:nyt-franklin;
+}
+
+.popover-content {
+	font-family:nyt-franklin!important;
+}
+
+.popover-title {
+	font-family:nyt-franklin!important;
+	font-weight:bold;
+}
+
+.blast-button {
+	background-color: #6288a5;
+	border-color: #4d7b9f;
+	border-radius:3px;
+	border-style: solid;
+	border-width:1px;
+	font-weight:bold;
+	text-transform: uppercase;
+	padding:7px;
+	font-size:11px;
+	color:white;
+	font-family: nyt-franklin;
+	margin-left:5px;
+}
+.response-container:first-of-type{
+	display:none;
+}
